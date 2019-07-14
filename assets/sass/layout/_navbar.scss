@@ -1,0 +1,17 @@
+.navbar {
+    padding: 1rem;
+    font-family: $primary-font;
+
+    &__logo {
+        width: 25%;
+    }
+
+    .btn {
+        margin: 0 1rem;
+        border-radius: 0;
+
+        @media (max-width: 628px) {
+            display: none;
+        }
+    }
+} 
